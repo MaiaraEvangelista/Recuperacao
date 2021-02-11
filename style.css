@@ -4,15 +4,28 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .topo{
     width: 100%;
     height: 49px;
     background-color: rgb(230, 3, 135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .off{
-    text-align:center;
-    
     font-size: 30px;
     color:white;
     font-family: Roboto;
@@ -20,33 +33,86 @@
 
 .menu{
     width: 100%;
-    height: 80px;
+    height: 40px;
     background-color: black;
+    display: flex;
+    align-items: center;
 }
 
 .menu a{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
-    margin-left: 2em;
-    
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.faixa{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.links{
+    width: 40%;
 }
 
 .bloco{
-    width: 70%;
-    height: 30px;
+    width: 60%;
     display: flex;
-    margin-left: 10em;
-    background-color: teal;
-    display: flex;
-    align-items: flex-end;
     justify-content: flex-end;
+}
+
+.container_faixa{
+   align-items:center;
+   height: 80px;
+}
+
+.logo p{
+    color: rgb(255, 9, 140);
+    text-transform: lowercase;
+    font-size:45px ;
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.barra input{
+    width: 85%;
+    height: 30px;
+}
+
+.dados{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6em;
+}
+
+.dados a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.sessoes {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
     
 }
 
-.bloco a{
+.sessoes a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
     text-transform: uppercase;
-    color: white;
-    display:flex;
-    align-content: space-around;
+    margin-top: 2em;
 }
