@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    
+
     <title>Marisa</title>
 </head>
 
@@ -19,7 +22,7 @@
         <nav class="menu">
             <div class="container">
                 <ul class="links">
-                    <a href="">Marisa</a>
+                    <a href=""><span>Marisa</span></a>
                     <a href="">Marisa Íntima</a>
                 </ul>
                 
@@ -34,18 +37,21 @@
         </nav>
 
         <div class="faixa"> <!-- faixa branca -->
-            <div class="container container_faixa">
+           <div class="container container_faixa">
                 <div class="logo">
                     <p>Marisa</p>
                 </div>
 
                 <div class="barra">
                      <input type="O que você procura?">
+                     <i class="fas fa-search"></i>
                 </div>
                 
                 <div class="dados">
-                    <a href="">Entre ou cadastre-se</a>
-                    <a href="">Minhas Compras</a>
+                   <a href="">Entre ou cadastre-se</a>
+                   <i class="fasfa-shopping-bag">
+                   </i>
+                   <a href=""> Minhas Compras</a>
                 </div>
             </div>
 
@@ -66,25 +72,43 @@
         </div>  <!-- fecha faixa branca -->
 
         <div class="info">
-            <p>
-                Frete fixo R$4,99 Brasil <br>
-                *Valor válido por pacote. Consulte o regulamento.
-            </p>
+            <div class="linha_1">
+              <p> Frete  fixo <span> R$4,99</span>  Brasil </p>
+            </div>
+            
+            <div class="linha_2">
+                <p> *Valor válido por pacote. Consulte o regulamento. </p>
+            </div>
         </div>
+
     </header>
 
     <main>
 
         <div class="banner">
-            <img src="" alt="Imagem das roupas">
+            <img src="img/marisa.jpg" alt="Imagem das roupas">  
         </div>
 
+        <div class="espaço">
+            <div class="parte_1">
+                <i class="fas fa-truck-moving"></i>
+                <p>Frete fixo R$4,99<br> para todo o Brasil</p>
+            </div> 
 
-        <div class="container">
-            <div>Frete fixo R$4,99 para todo o Brasil</div>
-            <div>Pagamento de Fatura</div>
-            <div>Troca em até 90 dias</div>
-            <div>Parcele em até 12x sem juros</div>
+            <div class="parte_2">
+                <i class="fas fa-store-alt"></i>
+                <p>Pagamento de Fatura</p>
+            </div>
+            
+            <div class="parte_3">
+                <i class="fas fa-undo-alt"></i>
+                <p>Troca em até 90 dias</p>
+            </div>
+
+            <div class="parte_4">
+                <i class="fas fa-credit-card"></i>
+                <p>Parcele em até 12x sem juros</p>
+            </div>  
         </div>
         
     </main>
